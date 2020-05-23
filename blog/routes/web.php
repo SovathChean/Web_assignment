@@ -16,9 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/home', function(){
-    return view('clean_blog.home');
+Route::get('/post', function(){
+    return view('clean_blog.post');
 });
+
+Route::get('/contact', function(){
+    return view('clean_blog.contact');
+});
+
+Route::get('/about', function(){
+    return view('clean_blog.about');
+});
+
+
 
 Auth::routes();
 
