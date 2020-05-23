@@ -15,7 +15,7 @@ url('img/contact-bg.jpg')
 
 @endsection
 
-@section('content')
+@section('contents')
 <div class="col-lg-8 col-md-10 mx-auto">
     <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
     <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->

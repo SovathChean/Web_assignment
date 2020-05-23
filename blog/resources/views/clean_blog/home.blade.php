@@ -16,7 +16,7 @@ url('img/home-bg.jpg')
 @endsection
 
 
-@section('content')
+@section('contents')
 <div class="col-lg-8 col-md-10 mx-auto">
     <div class="post-preview">
       <a href="post.html">
